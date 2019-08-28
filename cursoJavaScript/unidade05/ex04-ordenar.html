@@ -2,11 +2,13 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
-            var salada = new Array();
-            salada[0] = "Uva";
-            salada[1] = "Mamão";
-            salada[2] = "Pêra";
-            salada[3] = "Maçã";        
+            function ordernarNumeros(a,b){
+                return a-b;
+            }
+
+            var megasena = new Array(43 , 44 , 42 ,40 ,30 ,10 , 20 ,11 ,99 ,3);
+            megasena.sort(ordernarNumeros);
+            console.log(megasena);
         </script>
     </head>
     <body>
