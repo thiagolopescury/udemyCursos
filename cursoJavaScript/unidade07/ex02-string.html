@@ -2,6 +2,20 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
+            var frase = "Thiago Lopes Cury";
+            var primeira = frase.charAt(1);
+
+            var letra = "";
+            var primeira_palavra = "";
+            var i = 0;
+
+            while (letra != " ") {
+                letra = frase.charAt(i);
+                primeira_palavra = frase.substr(0,i);
+                i++;
+                
+            }
+            console.log(primeira_palavra);
             
         </script>
     </head>

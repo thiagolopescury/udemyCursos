@@ -2,6 +2,14 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
+            var nome = "Thiago Lopes Cury";
+
+            var letras_minusculas = nome.toLocaleLowerCase();
+            var primeira = letras_minusculas.charAt(0).toLocaleUpperCase();
+
+            var primeiro_nome = primeira + letras_minusculas.substr(1, letras_minusculas.length);
+
+            console.log(primeiro_nome.split(" ") [0]);
 
         </script>
     </head>
